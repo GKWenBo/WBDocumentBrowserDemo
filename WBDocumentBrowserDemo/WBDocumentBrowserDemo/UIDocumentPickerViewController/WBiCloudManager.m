@@ -26,6 +26,13 @@
     return url;
 }
 
++ (NSURL *)iCloudURLForIdentifier:(NSString *)identifier {
+    NSURL *url = nil;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    url = [fileManager URLForUbiquityContainerIdentifier:identifier];
+    return url;
+}
+
 /*  < 从iCloud下载文件 > */
 + (void)wb_downloadWithDocumentURL:(NSURL *)url
                     completedBlock:(downloadCallBack)completedBlock {

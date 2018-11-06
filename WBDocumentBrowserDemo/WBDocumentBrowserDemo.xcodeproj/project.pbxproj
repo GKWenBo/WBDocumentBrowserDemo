@@ -19,6 +19,17 @@
 		D04CDB9A219011A4006AEE85 /* WBUIDocumentPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04CDB98219011A4006AEE85 /* WBUIDocumentPickerController.xib */; };
 		D04CDB9D219015CE006AEE85 /* WBiCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D04CDB9C219015CE006AEE85 /* WBiCloudManager.m */; };
 		D04CDBA021901BDA006AEE85 /* WBDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D04CDB9F21901BDA006AEE85 /* WBDocument.m */; };
+		D064390821912ED600822923 /* WBDocumentBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D064390721912ED600822923 /* WBDocumentBrowserViewController.m */; };
+		D064390B2191339200822923 /* WBFileBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D064390A2191339200822923 /* WBFileBrowserViewController.m */; };
+		D064390E219133BB00822923 /* WBFileDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D064390D219133BB00822923 /* WBFileDocument.m */; };
+		D064394221913ADD00822923 /* ColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D064392D21913ADC00822923 /* ColorController.m */; };
+		D064394321913ADD00822923 /* DocumentBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = D064393021913ADC00822923 /* DocumentBrowserController.m */; };
+		D064394421913ADD00822923 /* ColorDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D064393321913ADC00822923 /* ColorDocument.m */; };
+		D064394521913ADD00822923 /* ColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D064393721913ADC00822923 /* ColorModel.m */; };
+		D064394621913ADD00822923 /* DocumentActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D064393A21913ADC00822923 /* DocumentActivity.m */; };
+		D064394721913ADD00822923 /* UIViewController+ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D064393E21913ADD00822923 /* UIViewController+ColorViewController.m */; };
+		D064394821913ADD00822923 /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D064394021913ADD00822923 /* UIImage+ColorImage.m */; };
+		D064394A21913B1900822923 /* ColorFile.color in Resources */ = {isa = PBXBuildFile; fileRef = D064394921913B1900822923 /* ColorFile.color */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +73,27 @@
 		D04CDB9C219015CE006AEE85 /* WBiCloudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBiCloudManager.m; sourceTree = "<group>"; };
 		D04CDB9E21901BDA006AEE85 /* WBDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBDocument.h; sourceTree = "<group>"; };
 		D04CDB9F21901BDA006AEE85 /* WBDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBDocument.m; sourceTree = "<group>"; };
+		D064390621912ED600822923 /* WBDocumentBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBDocumentBrowserViewController.h; sourceTree = "<group>"; };
+		D064390721912ED600822923 /* WBDocumentBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBDocumentBrowserViewController.m; sourceTree = "<group>"; };
+		D06439092191339200822923 /* WBFileBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBFileBrowserViewController.h; sourceTree = "<group>"; };
+		D064390A2191339200822923 /* WBFileBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBFileBrowserViewController.m; sourceTree = "<group>"; };
+		D064390C219133BB00822923 /* WBFileDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBFileDocument.h; sourceTree = "<group>"; };
+		D064390D219133BB00822923 /* WBFileDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBFileDocument.m; sourceTree = "<group>"; };
+		D064392C21913ADC00822923 /* ColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorController.h; sourceTree = "<group>"; };
+		D064392D21913ADC00822923 /* ColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorController.m; sourceTree = "<group>"; };
+		D064393021913ADC00822923 /* DocumentBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserController.m; sourceTree = "<group>"; };
+		D064393121913ADC00822923 /* DocumentBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentBrowserController.h; sourceTree = "<group>"; };
+		D064393321913ADC00822923 /* ColorDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDocument.m; sourceTree = "<group>"; };
+		D064393421913ADC00822923 /* ColorDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDocument.h; sourceTree = "<group>"; };
+		D064393621913ADC00822923 /* ColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorModel.h; sourceTree = "<group>"; };
+		D064393721913ADC00822923 /* ColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorModel.m; sourceTree = "<group>"; };
+		D064393921913ADC00822923 /* DocumentActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentActivity.h; sourceTree = "<group>"; };
+		D064393A21913ADC00822923 /* DocumentActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentActivity.m; sourceTree = "<group>"; };
+		D064393D21913ADD00822923 /* UIViewController+ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ColorViewController.h"; sourceTree = "<group>"; };
+		D064393E21913ADD00822923 /* UIViewController+ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ColorViewController.m"; sourceTree = "<group>"; };
+		D064394021913ADD00822923 /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+		D064394121913ADD00822923 /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		D064394921913B1900822923 /* ColorFile.color */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ColorFile.color; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +144,8 @@
 		D04CDB62218FF459006AEE85 /* WBDocumentBrowserDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D064390F2191395800822923 /* OtherDemo */,
+				D064390521912EA800822923 /* UIDocumentBrowserViewController */,
 				D04CDB9521901167006AEE85 /* UIDocumentPickerViewController */,
 				D04CDB63218FF459006AEE85 /* AppDelegate.h */,
 				D04CDB64218FF459006AEE85 /* AppDelegate.m */,
@@ -156,6 +190,121 @@
 				D04CDB9F21901BDA006AEE85 /* WBDocument.m */,
 			);
 			path = UIDocumentPickerViewController;
+			sourceTree = "<group>";
+		};
+		D064390521912EA800822923 /* UIDocumentBrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D064390621912ED600822923 /* WBDocumentBrowserViewController.h */,
+				D064390721912ED600822923 /* WBDocumentBrowserViewController.m */,
+				D06439092191339200822923 /* WBFileBrowserViewController.h */,
+				D064390A2191339200822923 /* WBFileBrowserViewController.m */,
+				D064390C219133BB00822923 /* WBFileDocument.h */,
+				D064390D219133BB00822923 /* WBFileDocument.m */,
+			);
+			path = UIDocumentBrowserViewController;
+			sourceTree = "<group>";
+		};
+		D064390F2191395800822923 /* OtherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D064394921913B1900822923 /* ColorFile.color */,
+				D064393B21913ADD00822923 /* Category */,
+				D064392A21913ADC00822923 /* Color */,
+				D064392E21913ADC00822923 /* DocumentBrowser */,
+			);
+			path = OtherDemo;
+			sourceTree = "<group>";
+		};
+		D064392A21913ADC00822923 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				D064392B21913ADC00822923 /* Controller */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		D064392B21913ADC00822923 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D064392C21913ADC00822923 /* ColorController.h */,
+				D064392D21913ADC00822923 /* ColorController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D064392E21913ADC00822923 /* DocumentBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D064392F21913ADC00822923 /* Controller */,
+				D064393221913ADC00822923 /* ColorDocument */,
+				D064393521913ADC00822923 /* Model */,
+				D064393821913ADC00822923 /* DocumentActivity */,
+			);
+			path = DocumentBrowser;
+			sourceTree = "<group>";
+		};
+		D064392F21913ADC00822923 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D064393021913ADC00822923 /* DocumentBrowserController.m */,
+				D064393121913ADC00822923 /* DocumentBrowserController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D064393221913ADC00822923 /* ColorDocument */ = {
+			isa = PBXGroup;
+			children = (
+				D064393321913ADC00822923 /* ColorDocument.m */,
+				D064393421913ADC00822923 /* ColorDocument.h */,
+			);
+			path = ColorDocument;
+			sourceTree = "<group>";
+		};
+		D064393521913ADC00822923 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D064393621913ADC00822923 /* ColorModel.h */,
+				D064393721913ADC00822923 /* ColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D064393821913ADC00822923 /* DocumentActivity */ = {
+			isa = PBXGroup;
+			children = (
+				D064393921913ADC00822923 /* DocumentActivity.h */,
+				D064393A21913ADC00822923 /* DocumentActivity.m */,
+			);
+			path = DocumentActivity;
+			sourceTree = "<group>";
+		};
+		D064393B21913ADD00822923 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D064393C21913ADD00822923 /* UIViewController+ColorViewController */,
+				D064393F21913ADD00822923 /* UIImage+ColorImage */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D064393C21913ADD00822923 /* UIViewController+ColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D064393D21913ADD00822923 /* UIViewController+ColorViewController.h */,
+				D064393E21913ADD00822923 /* UIViewController+ColorViewController.m */,
+			);
+			path = "UIViewController+ColorViewController";
+			sourceTree = "<group>";
+		};
+		D064393F21913ADD00822923 /* UIImage+ColorImage */ = {
+			isa = PBXGroup;
+			children = (
+				D064394021913ADD00822923 /* UIImage+ColorImage.m */,
+				D064394121913ADD00822923 /* UIImage+ColorImage.h */,
+			);
+			path = "UIImage+ColorImage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D064394A21913B1900822923 /* ColorFile.color in Resources */,
 				D04CDB70218FF45B006AEE85 /* LaunchScreen.storyboard in Resources */,
 				D04CDB6D218FF45B006AEE85 /* Assets.xcassets in Resources */,
 				D04CDB9A219011A4006AEE85 /* WBUIDocumentPickerController.xib in Resources */,
@@ -292,9 +442,19 @@
 				D04CDB68218FF459006AEE85 /* ViewController.m in Sources */,
 				D04CDB99219011A4006AEE85 /* WBUIDocumentPickerController.m in Sources */,
 				D04CDB73218FF45B006AEE85 /* main.m in Sources */,
+				D064394621913ADD00822923 /* DocumentActivity.m in Sources */,
+				D064394321913ADD00822923 /* DocumentBrowserController.m in Sources */,
 				D04CDB9D219015CE006AEE85 /* WBiCloudManager.m in Sources */,
+				D064390B2191339200822923 /* WBFileBrowserViewController.m in Sources */,
+				D064390E219133BB00822923 /* WBFileDocument.m in Sources */,
 				D04CDB65218FF459006AEE85 /* AppDelegate.m in Sources */,
+				D064394421913ADD00822923 /* ColorDocument.m in Sources */,
+				D064394221913ADD00822923 /* ColorController.m in Sources */,
 				D04CDBA021901BDA006AEE85 /* WBDocument.m in Sources */,
+				D064394521913ADD00822923 /* ColorModel.m in Sources */,
+				D064394821913ADD00822923 /* UIImage+ColorImage.m in Sources */,
+				D064390821912ED600822923 /* WBDocumentBrowserViewController.m in Sources */,
+				D064394721913ADD00822923 /* UIViewController+ColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

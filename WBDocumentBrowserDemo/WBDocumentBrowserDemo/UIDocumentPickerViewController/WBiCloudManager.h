@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 /*  < 默认iCloud地址 > */
 + (NSURL *)defaultiCloudURL;
 
+/*  < 指定identifier容器 > */
++ (NSURL *)iCloudURLForIdentifier:(NSString *)identifier;
+
 /*  < 从iCloud下载文件 > */
 + (void)wb_downloadWithDocumentURL:(NSURL *)url
                     completedBlock:(downloadCallBack)completedBlock;

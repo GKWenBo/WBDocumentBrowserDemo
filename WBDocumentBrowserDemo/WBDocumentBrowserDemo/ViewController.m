@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "WBUIDocumentPickerController.h"
+#import "WBDocumentBrowserViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -26,6 +28,10 @@
     if (indexPath.row == 0) {
         WBUIDocumentPickerController *vc = [WBUIDocumentPickerController new];
         [self.navigationController pushViewController:vc animated:YES];
+    }else {
+        //官方文档解释文档浏览控制器需设置为窗口根控制器
+        WBDocumentBrowserViewController *vc = [WBDocumentBrowserViewController new];
+        [UIApplication sharedApplication].keyWindow.rootViewController = vc;
     }
 }
 

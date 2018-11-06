@@ -20,6 +20,21 @@
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    NSLog(@"url  %@",[url absoluteString]);
+    
+    /*  < 三方App拷贝到自己App处理 > */
+    if ([[url absoluteString] containsString:@"file"]) {
+        NSArray *array = [[url absoluteString] componentsSeparatedByString:@"/"];
+        NSString *fileName = [array lastObject];
+        fileName = [fileName stringByRemovingPercentEncoding];
+        
+        NSString *path = [NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"/Documents/Inbox/%@",fileName]];
+        
+        NSData *data = [NSData dataWithContentsOfFile:path];
+    }
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
